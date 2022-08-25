@@ -1,0 +1,31 @@
+// Colors
+
+$white:				#f2f2f2;
+$black:				#202020;
+$gray:				#979797;
+$dark-gray:			#5c5c5c;
+$marron:		 	#611818;
+$light-marron:		#A36754;
+$marron-transparent: rgba(97, 24, 24, 1);
+$transparent:		rgba(97, 24, 24, 0);
+
+
+// Fonts
+
+$headingFont: 		'Didot', sans-serif;
+$bodyFont:			'Lato', sans-serif;
+
+
+// Media query breakpoints
+
+$only-screen:    'only screen';
+$landscape:      '(orientation: landscape)';
+
+
+// Device Breakpoints
+
+$desktop-tiny:     		'#{$only-screen} and (min-width: 340px)' !default;
+$desktop-small:     	'#{$only-screen} and (min-width: 840px)' !default;
+$desktop-medium:    	'#{$only-screen} and (min-width: 1040px)' !default;
+$desktop-large:     	'#{$only-screen} and (min-width: 1240px)' !default;
+$desktop-xl:     		'#{$only-screen} and (min-width: 1600px)' !default;

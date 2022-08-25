@@ -1,0 +1,206 @@
+.fadeDown {
+	animation-name: fadeDown;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: once;
+	//animation-timing-function: cubic-bezier(.19,.41,0,.97);
+	// animation-delay: 0s;
+}
+
+	@keyframes fadeDown {
+	  	0% {
+	    	opacity: 0;
+	    	transform: translateY(-20px);
+	  	}
+
+	  	100% {
+	    	opacity: 1;
+	    	transform: translateY(0px);
+	  	}
+	}
+
+.fadeUp {
+	animation-name: fadeUp;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: once;
+	animation-timing-function: cubic-bezier(.19,.41,0,.97);
+	animation-delay: 2s;
+}
+
+	@keyframes fadeUp {
+	  	0% {
+	    	opacity: 0;
+	    	transform: translateY(20px);
+	  	}
+
+	  	100% {
+	    	opacity: 1;
+	    	transform: translateY(0px);
+	  	}
+	}
+
+.fadeInRight {
+	animation-name: fadeInRight;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: once;
+	animation-timing-function: cubic-bezier(.19,.41,0,.97);
+	animation-delay: 0s;
+}
+
+	@keyframes fadeInRight {
+	  	0% {
+	    	opacity: 0;
+	    	transform: translateX(-20px);
+	  	}
+
+	  	100% {
+	    	opacity: 1;
+	    	transform: translateX(0px);
+	  	}
+	}
+
+.fadeInRight1 {
+	animation-name: fadeInRight;
+	animation-duration: .5s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: once;
+	animation-timing-function: cubic-bezier(.19,.41,0,.97);
+	animation-delay: .45s;
+}
+
+	@keyframes fadeInRight {
+	  	0% {
+	    	opacity: 0;
+	    	transform: translateX(-20px);
+	  	}
+
+	  	100% {
+	    	opacity: 1;
+	    	transform: translateX(0px);
+	  	}
+	}
+
+.fadeInLeft {
+	animation-name: fadeInLeft;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: once;
+	//animation-timing-function: cubic-bezier(.19,.41,0,.97);
+	animation-delay: 4s;
+}
+
+	@keyframes fadeInLeft {
+	  	0% {
+	    	opacity: 0;
+	    	transform: translateX(20px);
+	  	}
+
+	  	100% {
+	    	opacity: 1;
+	    	transform: translateX(0px);
+	  	}
+	}
+
+
+.fadeOutLeft {
+	animation-name: fadeOutLeft;
+	animation-duration: .3s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: once;
+	animation-timing-function: cubic-bezier(.19,.41,0,.97);
+	animation-delay: 0s;
+}
+
+	@keyframes fadeOutLeft {
+	  	0% {
+	    	opacity: 1;
+	    	transform: translateX(0px);
+	  	}
+
+	  	100% {
+	    	opacity: 0;
+	    	transform: translateX(-20px);
+	  	}
+	}
+
+.fadeOut {
+	opacity: 0;
+	transition: .5;
+}
+
+.fadeIn {
+	animation-name: fadeIn;
+	animation-duration: .5s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: once;
+	animation-timing-function: cubic-bezier(.19,.41,0,.97);
+	animation-delay: 0s;
+	transition: .3;
+}
+
+	@keyframes fadeIn {
+	  	0% {
+	    	opacity: 0;
+	  	}
+
+	  	100% {
+	    	opacity: 1;
+	  	}
+	}
+
+
+
+.buttonClicked {
+	animation-name: buttonClicked;
+	animation-duration: 0.3s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+	vertical-align: middle;
+}
+
+	@keyframes buttonClicked {
+		50% {
+			transform: scale(0.8);
+		}
+
+		100% {
+			transform: scale(1);
+		}
+	}
+
+// .modalOpen {
+// 	animation-name: modalOpen;
+// 	animation-duration: .5s;
+// 	animation-timing-function: cubic-bezier(.19,.41,0,.97);
+// 	// transition: .5s;
+// 	//width: 580px;
+// 	//height: 702px;
+// 	// background: $white;
+// 	// position: absolute;
+// 	bottom: 161px;
+// 	//border-radius: 0%;
+
+// 	.modalContent {
+// 		display: block;
+// 		transition: 1s;
+// 	}
+// }
+
+// 	@keyframes modalOpen {
+// 		0% {
+// 			width: 43px;
+// 			height: 43px;
+// 			border-radius: 50%;
+// 		}
+
+// 		100% {
+// 			width: 580px;
+// 			height: 702px;
+// 			border-radius: 0%;
+// 		}
+// 	}
+
+
+

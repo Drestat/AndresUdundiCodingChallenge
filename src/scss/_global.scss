@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+	font-family: $bodyFont;
+}
+
+html {
+    //overflow: hidden;
+}
+
+@font-face {
+    font-family: Didot;
+    src: url(../assets/fonts/Didot.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(../assets/fonts/Lato.ttf) format('truetype')
+}
+
+body {
+    overflow-y: scroll;
+    position: relative;
+}
+
+svg {
+	transition: 1s;
+}
+
+section {
+	padding: 40px 0;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+
+	@media #{$desktop-small} {
+      	width: 800px;
+
+		@media #{$desktop-medium} {
+	      	width: 1000px;
+
+		    @media #{$desktop-large} {
+			    width: 1200px;
+			}
+	    }
+	}
+}
+
+.zindex1 {
+	z-index: 2 !important;
+
+}
+
+.zindex0 {
+	z-index: 0 !important;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: $headingFont;
+	font-size: 40px;
+	text-shadow: 0 2px 2px rgba(0,0,0,0.1);
+}
+
+h2 {
+	font-size: 16px;
+	text-shadow: 0 2px 2px rgba(0,0,0,0.1);
+
+	@media #{$desktop-tiny} {
+      	font-size: 16px;
+    }
+
+    @media #{$desktop-medium} {
+      	font-size: 32px;
+    }
+}
+
+h3 {
+	font-size: 14px;
+	text-shadow: 0 2px 2px rgba(0,0,0,0.1);
+
+	@media #{$desktop-medium} {
+      	font-size: 24px;
+    }
+}
+
+h4 {
+	font-size: 15px;
+	text-shadow: 0 2px 2px rgba(0,0,0,0.1);
+}
+
+p {
+	font-family: $bodyFont;
+	font-size: 12px;
+	line-height: 18px;
+
+	@media #{$desktop-medium} {
+		font-size: 16px;
+	}
+}
+
+button {
+	border: solid 1px $white;
+	color: $white;
+	background: rgba(254, 254, 254, .1);
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 7px 25px;
+    margin-top: 40px;
+    transition: .7s;
+    cursor: pointer;
+
+    :hover {
+		background: rgba(254, 254, 254, .3);
+		transition: .7s;
+    }
+}
+
+.bold {
+	font-weight: 700;
+}
